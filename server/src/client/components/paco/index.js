@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 
 const Paco = props => {
 	return (
-		<div>
+		<div id="paco">
 			<h1>I'm paco component, awesome!</h1>
 			<h2>My counter {props.counter} !!!</h2>
 			<hr/>

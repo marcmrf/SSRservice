@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 const Pepe = () => {
 	return (
-		<div>
+		<div id="pepe">
 			<h1>I'm pepe component, yeaaaaah!</h1>
 			<hr/>
 		</div>

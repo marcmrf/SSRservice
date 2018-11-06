@@ -1,3 +1,3 @@
 export const INCREMENT = 'increment';
 
-export const increment = () => dispatch({ type: INCREMENT });
+export const increment = () => { type: INCREMENT };

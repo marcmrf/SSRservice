@@ -12,12 +12,4 @@ const Pepe = props => {
 	);
 };
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        increment: () => {
-            dispatch(increment());
-        }
-    };
-};
-
-export default connect(null, mapDispatchToProps)(Pepe);
+export default connect(null, { increment })(Pepe);

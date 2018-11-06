@@ -8,7 +8,7 @@ export default (state = {
 	switch (action.type) {
 		case INCREMENT:
 			return { ...state,
-				counter: counter + 1
+				counter: state.counter + 1
 			};
 		default:
 			return state;

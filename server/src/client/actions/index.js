@@ -1,3 +1,3 @@
 export const INCREMENT = 'increment';
 
-export const increment = () => { type: INCREMENT };
+export const increment = () => ({ type: INCREMENT });
